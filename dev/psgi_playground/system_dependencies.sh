@@ -5,6 +5,9 @@ sudo apt-get install python perl-dev libperl-dev nodejs libssl-dev
 
 # Download uwsgi sources, compile couple binaries and out them
 # into $HOME/bin folder. Make sure that the folder is in PATH
+
+# Probably for ubuntu installation of uWSGI with all plugins can be used the following command:
+# $ sudo apt-get install uwsgi-plugins-all
 mkdir ~/downloads;
 cd ~/downloads && wget https://projects.unbit.it/downloads/uwsgi-2.0.17.1.tar.gz
 tar -xzvf uwsgi-2.0.17.1.tar.gz
